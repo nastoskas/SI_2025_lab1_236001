@@ -1,0 +1,11 @@
+* d1d5987 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Implem
+ent method CountTasksPerCategory
+| * afbe0f1 (HEAD -> main, origin/2-find-all-completed-tasks, 2-find-all-complet
+ed-tasks) Implement findCompletedTasks
+| * 24acd1c (origin/main, origin/HEAD) Implement method getCompletedTasks
+|/
+| * d50939b (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Implemen
+t method sortTasksByPriority
+|/
+* 330fa57 Add starter code
+* 8581862 Initial commit
