@@ -70,7 +70,6 @@ class TaskManager {
 
     // 2. Find all completed tasks
     public List<Task> getCompletedTasks() {
-        // TODO: Implement logic to return completed tasks
          return tasks.stream().filter(Task::isCompleted).collect(Collectors.toList());
     }
 
