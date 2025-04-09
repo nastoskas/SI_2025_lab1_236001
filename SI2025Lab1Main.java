@@ -80,7 +80,7 @@ class TaskManager {
 
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
-        // TODO: Implement sorting by priority logic
+        tasks.stream().sorted(Comparator.comparing(Task::getPriority).reversed()).forEach(System.out::println);
     }
 
     // 5. Filter tasks by category
@@ -98,7 +98,7 @@ class TaskManager {
     // 7. Count tasks per category
     public Map<String, Integer> countTasksPerCategory() {
         // TODO: Implement counting logic
-        return new HashMap<>();
+        return tasks.stream().collect(Collectors.groupingBy(Task::getCategory, Collectors.summingInt(t -> 1)));
     }
 
     // 8. Mark a task as completed by name
