@@ -1,11 +1,27 @@
-* d1d5987 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Implem
-ent method CountTasksPerCategory
-| * afbe0f1 (HEAD -> main, origin/2-find-all-completed-tasks, 2-find-all-complet
-ed-tasks) Implement findCompletedTasks
-| * 24acd1c (origin/main, origin/HEAD) Implement method getCompletedTasks
-|/
-| * d50939b (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Implemen
-t method sortTasksByPriority
+*   06ce0f1 (HEAD -> master) Merge branch 'master' of https://github.c
+as/SI_2025_lab1_236001
+|\
+| *   a36606c (origin/master, origin/HEAD) Merge pull request #12 from
+/7-count-tasks-per-category
+| |\
+| | * d1d5987 (origin/7-count-tasks-per-category, 7-count-tasks-per-ca
+plement method CountTasksPerCategory
+| * |   8dae000 Merge pull request #11 from nastoskas/2-find-all-compl
+| |\ \
+| * \ \   cc6a7fe Merge pull request #10 from nastoskas/4-sort-tasks-b
+| |\ \ \
+| | * | | d50939b (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-pr
+plement method sortTasksByPriority
+| | | |/
+| | |/|
+* | | | f2f51f6 Final commit
+| |_|/
+|/| |
+* | | afbe0f1 (origin/2-find-all-completed-tasks, 2-find-all-completed
+plement findCompletedTasks
+|/ /
+* / 24acd1c (origin/main) Implement method getCompletedTasks
 |/
 * 330fa57 Add starter code
 * 8581862 Initial commit
+

@@ -15,4 +15,17 @@ git checkout 7-count-tasks-per-category
 nano SI2025Lab1Main.java
 git add SI2025Lab1Main.java
 git commit -m "Implement method CountTasksPerCategory"
-git push
+git push 
+git checkout master
+git merge 7-count-tasks-per-category
+git log --oneline --graph --all
+nano logs.txt
+nano 236001.txt
+git commit -a -m "Final commit"
+git push origin master
+git clone https://github.com/nastoskas/SI_2025_lab1_151020.git
+cd SI_2025_lab1_151020
+nano 236001.txt
+git add 236001.txt
+git commit -m "Add file"
+git push origin master
